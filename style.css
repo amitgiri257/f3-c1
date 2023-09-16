@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: #242A32;
+
+}
+
+
+h1{
+    /* color: #242A32; */
+text-align: center;
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+width: 100vw;
+height: 78px;
+-webkit-text-stroke: 0.05px #0296E5;
+line-height: normal;
+}
+
+.api{
+    width: 90vw;
+    margin-inline: auto;
+height: 51px;
+border-radius: 8px;
+background: #3A3F47;
+margin-bottom: 50px;
+align-items: center;
+position: relative;
+}
+.search{
+    width: 90vw;
+    margin-inline: auto;
+height: 51px;
+border-radius: 8px;
+background: #3A3F47;
+margin-bottom: 50px;
+align-items: center;
+}
+#api{
+    background: #3A3F47;
+    width: 284.52px;
+    color: #67686D;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+align-items: center;
+margin: 15px;
+
+}
+.loader {
+    border: 5px solid grey;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: none;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#search{
+    background: #3A3F47;
+    width: 284.52px;
+    color: #67686D;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+align-items: center;
+margin: 15px;
+}
+#key{
+   margin-top: 13px;
+   position: absolute;
+   right: 0;
+   margin-right: 20px;
+}
+
+.search{
+    width: 90vw;
+    margin-inline: auto;
+height: 51px;
+border-radius: 8px;
+background: #3A3F47;
+position: relative;
+}
+#searchButton{
+    position: absolute;
+    right: 0;
+    background: #3A3F47;
+    height: 100%;
+    width: 50px;
+    border-radius: 0 10px 10px 0 ;
+    border: none ;
+
+}
+#searchButton:hover{
+    cursor: pointer;
+}
+#search-img{
+   margin-top: 13px;
+   
+}
+
+.container{
+    margin-inline: 116px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 88px;
+}
+.card{
+    height: 376px;
+    width: 246px;
+
+}
+#movie-poster{
+height: 309px;
+width: 236px;
+margin-inline: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-inline: 20px;
+}
+
+#more{
+    background: #3A3F47;
+border: none;
+cursor: pointer;
+}
+.more-Details{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.year{
+    color:#3498db;
+}
+
+@media screen and (max-size:500px){
+.container{
+    display: flex;
+    flex-direction: column;
+}
+}
